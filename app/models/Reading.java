@@ -60,11 +60,9 @@ public class Reading extends Model {
             beaufort = 11;
         }
         return beaufort;
-
     }
 
     public double calcFahrenheit() {
-
         fahrenheit = (temperature * 9.0/5.0) + 32;
         return fahrenheit;
     }
@@ -131,9 +129,23 @@ public class Reading extends Model {
     }
 
     public double calcWindChill() {
-
         windChill = (13.12 + (0.6215 * temperature)) - (11.37 * pow(windSpeed, 0.16)) + ((0.3965 * temperature) * pow(windSpeed, 0.16));
         return windChill;
     }
 
+    public double getTemperature() {
+        return temperature;
+    }
+
+    public double getWindSpeed() {
+        return windSpeed;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public int getCode() {
+        return code;
+    }
 }
