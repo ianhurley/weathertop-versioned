@@ -1,16 +1,21 @@
-<table class="ui fixed table">
+<table class="ui single line table">
     <thead>
     <tr>
+        <th>Date/Time</th>
         <th>Code</th>
         <th>Temperature</th>
         <th>Wind Speed</th>
         <th>Wind Direction</th>
         <th>Pressure</th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
     #{list items:_station.readings, as:'reading'}
     <tr>
+        <td>
+            ${reading.date}
+        </td>
         <td>
             ${reading.code}
         </td>
@@ -25,6 +30,8 @@
         </td>
         <td>
             ${reading.pressure}
+        </td>
+        <td><a href="/stations/${_station.id}/deleteReading/${reading.id}" class="ui red icon right floated button"><i class="trash alternate outline icon"></i></a>
         </td>
     </tr>
     #{/list}

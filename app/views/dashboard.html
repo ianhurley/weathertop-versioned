@@ -9,8 +9,12 @@
     <h2 class="ui header">
         ${station.name}
     </h2>
+    <h3>
+        #{latestweather station:station/}
+    </h3>
     <a href="/station/${station.id}" class= "ui blue icon button">
     <i class="icon folder open"></i></a>
+    <a href="/dashboard/deletestation/${station.id}" class="ui red icon right floated button"><i class="trash alternate outline icon"></i></a>
 </section>
 #{/list}
 #{addstation /}

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30dd20b2-12d5-477b-8dfb-e1abdbaa3a35" name="Changes" comment="" />
+    <list default="true" id="adc7e33a-3952-4f5c-92fe-1a8e03e0a671" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/StationCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/newstation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/station.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/addreading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/addstation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/latestweather.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/liststations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/mainpanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,37 +41,101 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="29ThENfn6QxXYFVoomqmWbP7Z2P" />
+  <component name="ProjectId" id="28ZdvSebxcgzkB8JrqPP7AJAYOb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WeatherTop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="30dd20b2-12d5-477b-8dfb-e1abdbaa3a35" name="Changes" comment="" />
-      <created>1653142870074</created>
+      <changelist id="adc7e33a-3952-4f5c-92fe-1a8e03e0a671" name="Changes" comment="" />
+      <created>1651428275546</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653142870074</updated>
-      <workItem from="1653142871447" duration="2043000" />
+      <updated>1651428275546</updated>
+      <workItem from="1651428279643" duration="9228000" />
+      <workItem from="1651438557886" duration="185000" />
+      <workItem from="1651494101585" duration="1916000" />
+      <workItem from="1651577690340" duration="1582000" />
+      <workItem from="1651927830386" duration="1377000" />
+      <workItem from="1651931983551" duration="10000" />
+      <workItem from="1651932063315" duration="3000" />
+      <workItem from="1651932560833" duration="40335000" />
+      <workItem from="1652129617139" duration="6334000" />
+      <workItem from="1652171063749" duration="12659000" />
+      <workItem from="1652190166892" duration="4393000" />
+      <workItem from="1652200562499" duration="7802000" />
+      <workItem from="1652347374967" duration="20231000" />
+      <workItem from="1652373962517" duration="13557000" />
+      <workItem from="1652520075877" duration="36585000" />
+      <workItem from="1652633745620" duration="5580000" />
+      <workItem from="1652713293379" duration="1717000" />
+      <workItem from="1652725310950" duration="6593000" />
+      <workItem from="1652802317150" duration="11268000" />
+      <workItem from="1652868658384" duration="2895000" />
+      <workItem from="1652892484190" duration="21528000" />
+      <workItem from="1652996231197" duration="135000" />
+      <workItem from="1653140854102" duration="821000" />
+      <workItem from="1653145135100" duration="15187000" />
+      <workItem from="1653207694099" duration="2395000" />
+      <workItem from="1653210110159" duration="39000" />
+      <workItem from="1653210172717" duration="1888000" />
+      <workItem from="1653213199886" duration="4337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
