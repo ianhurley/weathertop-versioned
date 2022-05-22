@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ea7276e-476f-4ada-b596-cbd717298f4c" name="Changes" comment="" />
+    <list default="true" id="9a8f37b5-eb72-4f6c-b9e5-c697e0bec958" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +10,13 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="29WuVEN0VU6H9k6oMSc5Kn4e3gi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="294XlbEV9koNsZ9KQ1zfegxSQ2I" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,12 +31,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ea7276e-476f-4ada-b596-cbd717298f4c" name="Changes" comment="" />
-      <created>1653241183290</created>
+      <changelist id="9a8f37b5-eb72-4f6c-b9e5-c697e0bec958" name="Changes" comment="" />
+      <created>1652373482961</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653241183290</updated>
-      <workItem from="1653241184548" duration="627000" />
+      <updated>1652373482961</updated>
+      <workItem from="1652373484349" duration="108000" />
+      <workItem from="1652471968570" duration="540000" />
+      <workItem from="1652995753564" duration="189000" />
     </task>
     <servers />
   </component>
