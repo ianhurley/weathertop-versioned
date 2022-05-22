@@ -21,7 +21,11 @@ public class Station extends Model {
     }
 
     public Reading latestReading() {
-        return readings.get(readings.size() - 1);
+        if (readings.size() == 0) {
+            return null;
+        } else {
+            return readings.get(readings.size() - 1);
+        }
     }
 
 }

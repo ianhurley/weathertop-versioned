@@ -1,4 +1,4 @@
-<table class="ui inverted grey table">
+<table class="ui inverted blue table">
     <thead>
 
     <tr>
@@ -25,7 +25,10 @@
             ${reading.calcFahrenheit()} <span class="ui small text">&deg f</span>
         </td>
         <td>
-            ${reading.calcBeaufort()} <span class="ui small text">bft</span>
+            ${reading.calcBeaufort()} <span class="ui small text">bft</span> <br>
+            <span class="ui small text">${reading.compassDirection()}</span> <br>
+            <span class="ui small text">Feels like</span> <br>
+            <span class="ui small text">${reading.calcWindChill().round(1)}&deg c</span>
         </td>
         <td>
             ${reading.pressure} <span class="ui small text">hpa</span>

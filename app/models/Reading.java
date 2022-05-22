@@ -4,22 +4,29 @@ import javax.persistence.Entity;
 
 import play.db.jpa.Model;
 
+import static java.lang.Math.pow;
+import static java.lang.Math.round;
+
 @Entity
 public class Reading extends Model {
     public int code;
     public double temperature;
     public double windSpeed;
+    public int windDirection;
     public int pressure;
 
     public int beaufort;
     public double fahrenheit;
     public String weather;
+    public String compass;
+    public double windChill;
 
 
-    public Reading(int code, double temperature, double windSpeed, int pressure) {
+    public Reading(int code, double temperature, double windSpeed, int windDirection, int pressure) {
         this.code = code;
         this.temperature = temperature;
         this.windSpeed = windSpeed;
+        this.windDirection = windDirection;
         this.pressure = pressure;
     }
 
@@ -58,7 +65,7 @@ public class Reading extends Model {
 
     public double calcFahrenheit() {
 
-        fahrenheit = (temperature * 1.8) + 32;
+        fahrenheit = (temperature * 9.0/5.0) + 32;
         return fahrenheit;
     }
 
@@ -82,6 +89,51 @@ public class Reading extends Model {
         }
         return weather;
 
+    }
+
+    public String compassDirection() {
+        if ((windDirection >= 0.00) && (windDirection<= 11.25)) {
+            compass = "North";
+        } else if ((windDirection > 11.25) && (windDirection <= 33.75)) {
+            compass = "North North East";
+        } else if ((windDirection > 33.75) && (windDirection <= 56.25)) {
+            compass = "North East";
+        } else if ((windDirection > 56.25) && (windDirection <= 78.75)) {
+            compass = "East North East";
+        } else if ((windDirection > 78.75) && (windDirection <= 101.25)) {
+            compass = "East";
+        } else if ((windDirection > 101.25) && (windDirection <= 123.75)) {
+            compass = "East South East";
+        } else if ((windDirection > 123.75) && (windDirection <= 146.25)) {
+            compass = "South East";
+        } else if ((windDirection > 146.25) && (windDirection <= 168.75)) {
+            compass = "South South East";
+        } else if ((windDirection > 168.75) && (windDirection <= 191.25)) {
+            compass = "South";
+        } else if ((windDirection > 191.25) && (windDirection <= 213.75)) {
+            compass = "South South West";
+        } else if ((windDirection > 213.75) && (windDirection <= 236.25)) {
+            compass = "South West";
+        } else if ((windDirection > 236.25) && (windDirection <= 258.75)) {
+            compass = "West South West";
+        } else if ((windDirection > 258.75) && (windDirection <= 281.25)) {
+            compass = "West";
+        } else if ((windDirection > 281.25) && (windDirection <= 303.75)) {
+            compass = "West North West";
+        } else if ((windDirection > 303.75) && (windDirection <= 326.25)) {
+            compass = "North West";
+        } else if ((windDirection > 326.25) && (windDirection <= 348.75)) {
+            compass = "North North West";
+        } else if ((windDirection > 348.75) && (windDirection <= 360.00)) {
+            compass = "North";
+        }
+        return compass;
+    }
+
+    public double calcWindChill() {
+
+        windChill = (13.12 + (0.6215 * temperature)) - (11.37 * pow(windSpeed, 0.16)) + ((0.3965 * temperature) * pow(windSpeed, 0.16));
+        return windChill;
     }
 
 }
